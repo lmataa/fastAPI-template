@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = "FastAPI template ;>"
+authors = ["Luis Mata <luismata06@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.62.0"
+uvicorn = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+main = "main:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+

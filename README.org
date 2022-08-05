@@ -1,0 +1,3 @@
+* FastAPI Templates
+
+FastAPI playground templates. 
